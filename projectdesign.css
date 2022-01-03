@@ -1,0 +1,355 @@
+*{
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI;
+	background-color: #eed8b9;
+}
+
+/* 301b10 - darker brown
+   432616 - dark brown
+   E9CCA4 - light cream
+   eed8b9 - lighter cream
+   cfb284 - cream
+   9a7b4f - brown*/
+
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #432616;
+	position: fixed;
+}
+
+.header1{
+	padding: 20px 20px 20px 125px;
+	font-size: 30px;
+	color: white;
+	background-color: #432616;
+}
+
+.buttons{
+	padding: 25px 20px 25px 20px;
+	font-size: 20px;
+	right: 0px;
+	position: fixed;
+	background-color: #432616;
+	
+}
+
+.buttons a{
+	color: white;
+	padding: 25px 10px 25px 10px;
+	background-color: #432616;
+	text-decoration: none;
+}
+
+.buttons a:hover{
+	background-color: #301b10;
+}
+
+.logo{
+	width: 74px;
+	background-color: #432616;
+	top: 0px;
+	left: 20px;
+	position: fixed;
+}
+
+/* BANNER */
+
+.banner img{
+	width: 100%;
+	padding-top: 80px;
+	position: static;
+}
+
+/* ABOUT US */
+
+.aboutus{
+	top: 100px;
+	position: static;
+}
+
+.line{
+	width: 3px;
+	height: 100px;
+	background-color: #9a7b4f;
+	position: static;
+}
+
+.aboutus h1{
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	color: #432616;
+}
+
+.aboutus h2{
+	padding: 20px 500px 100px 500px;
+	font-size: 25px;
+	color: #432616;
+}
+
+/* BEST SELLERS */
+
+.bseller{
+	top: 100px;
+	position: static;
+}
+
+.line{
+	width: 3px;
+	height: 100px;
+	background-color: #9a7b4f;
+	position: static;
+}
+
+.bseller h1{
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	color: #432616;
+}
+
+.bseller h2{
+	padding: 20px 500px 0px 500px;
+	font-size: 25px;
+	color: #432616;
+}
+
+.wintermelon{
+	width: 20%;
+	margin-right: 25px;
+	margin-top: 50px;
+	position: static;
+	border-style: solid;
+}
+
+.okinawa{
+	width: 20%;
+	margin-right: 25px;
+	margin-top: 50px;
+	position: static;
+	border-style: solid;
+}
+
+.rvelvet{
+	width: 20%;
+	margin-right: 25px;
+	margin-top: 50px;
+	position: static;
+	border-style: solid;
+}
+
+.matcha{
+	width: 20%;
+	margin-top: 50px;
+	position: static;
+	border-style: solid;
+}
+
+.bsellernames{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: -315px;
+}
+
+.bsellernames a{
+	font-size: 25px;
+	font-family: Lucida Handwriting;
+	color: #432616;
+	margin-left: 250px;
+}
+
+.bsellerdesc{
+	column-count: 4;
+	color: #432616;
+	font-size: 20px;
+	margin: 0px 120px 0px 120px;
+	padding-bottom: 100px;
+}
+
+/* PRODUCTS */
+
+.products{
+	top: 100px;
+	position: static;
+}
+
+.line{
+	width: 3px;
+	height: 100px;
+	background-color: #9a7b4f;
+	position: static;
+}
+
+.products h1{
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	color: #432616;
+}
+
+.products h2{
+	padding: 20px 500px 0px 500px;
+	font-size: 25px;
+	color: #432616;
+}
+
+.pheader{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: -200px;
+}
+
+.pheader a{
+	font-size: 25px;
+	font-family: Lucida Handwriting;
+	color: #432616;
+	margin-left: 175px;
+}
+
+.mtea{
+	column-count: 6;
+	color: #432616;
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+.t1{
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: 129px;
+}
+
+.t2{
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: 105px;
+}
+
+.t3{
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: -5px;
+}
+
+.t4{
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: -25px;
+}
+
+.t5{
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: -45px;
+}
+
+.t6{
+	list-style-type: none;
+	margin-right: 0px;
+	margin-left: -155px;
+}
+
+/* REVIEWS */
+
+.reviews{
+	top: 100px;
+	position: static;
+}
+
+.line{
+	width: 3px;
+	height: 100px;
+	background-color: #9a7b4f;
+	position: static;
+}
+
+.reviews h1{
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	color: #432616;
+}
+
+.reviews h2{
+	padding: 20px 500px 0px 500px;
+	font-size: 25px;
+	color: #432616;
+}
+
+.birb{
+	width: 20%;
+}
+
+/* CONTACT US */
+
+.contacts{
+	top: 100px;
+	position: static;
+}
+
+.line{
+	width: 3px;
+	height: 100px;
+	background-color: #9a7b4f;
+	position: static;
+}
+
+.contacts h1{
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	color: #432616;
+}
+
+.contacts h2{
+	padding: 20px 500px 0px 500px;
+	font-size: 25px;
+	color: #432616;
+}
+
+.phone{
+	width: 70px;
+	margin-left: -75px;
+	margin-right: 640px;
+	top: -15px;
+	position: static;
+}
+
+.fb{
+	width: 100px;
+	margin-left: -200px;
+	margin-right: 450px;
+	margin-top: 0px;
+	position: static;
+}
+
+.email{
+	width: 100px;
+	margin-top: 50px;
+	position: static;
+}
+
+.deets{
+	margin-bottom: 20px;
+	margin-left: -200px;
+}
+
+.deets a{
+	font-size: 25px;
+	color: #432616;
+	margin-left: 160px;
+}
+
+.map{
+	margin-top: 50px;
+	width: 80%;
+	border-style: solid;
+}
+
+/* FOOTER */
+
+.footer{
+	margin-top: 100px;
+	width: 100%;
+	height: 80px;
+	background-color: #432616;
+	position: static;
+}
